@@ -23,11 +23,21 @@ def RemoveVowels(x):
     return newstring
 
 NoVowels = RemoveVowels("Computer Science Makes the World go round but it doesn't make the world round itself!")
-
+'''
 print(NoVowels)
 
-
+'''
 
 
 
 """Write an encryption code that you make up and run it for the variable NoVowels"""
+
+def MyEncrypt(x):
+    newstring = ""
+    for ch in x:
+        #print (ch, ord(ch))
+        y = ord(ch) + 5
+        newstring = newstring + chr(y)
+    return newstring
+
+print(MyEncrypt(NoVowels))
