@@ -2,7 +2,11 @@
 than 100.  It should then spit out the result AND tell the user how many times
 it had to add 5 (if any)"""
 
+x = 0
 
+while x <= 100:
+    print (x)
+    x = x + 5
 
 
 
