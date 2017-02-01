@@ -3,9 +3,9 @@
 'Computer Science Makes the World go round but it doesn't make the world round itself!'
 
 Print the save the result as the variable = NoVowels
-""""
+"""
 def RemoveVowels(x):
-    string = ""
+    newstring = ""
     x = x.lower()
     for ch in x:
         if ch is 'a':
