@@ -9,14 +9,14 @@ print(AddTen(3))
 import turtle
 sven = turtle.Turtle()
 
-def DrawRectangle(x , y):
+def DrawRectangle(AnyTurtle , x , y):
     for i in range(2):
-        sven.forward(x)
-        sven.right(90)
-        sven.forward(y)
-        sven.right(90)
+        AnyTurtle.forward(x)
+        AnyTurtle.right(90)
+        AnyTurtle.forward(y)
+        AnyTurtle.right(90)
 '''
-DrawRectangle(70 , 50)
+DrawRectangle(sven , 70 , 50)
 '''
 #3
 sally = turtle.Turtle()
@@ -26,5 +26,6 @@ def NSides(y):
     for i in range(y):
         sally.forward(35)
         sally.right(x)
-
+'''
 NSides(6)
+'''
