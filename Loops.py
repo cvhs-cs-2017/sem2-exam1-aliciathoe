@@ -17,9 +17,9 @@ anything else (like a decimal or a string)"""
 
 def doubletriple(v):
     if v % 2 == 0:
-        v = v * 2
-    elif v % 2 == 1:
         v = v * 3
+    elif v % 2 == 1:
+        v = v * 2
     else:
         v = v
     return v
